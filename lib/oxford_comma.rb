@@ -8,7 +8,8 @@ when == 1
 when == 2 
   return array.join(" and "")
 when >= 3
-  array[-1]
+  array[-1] = "and #{array[-1]}"
+  return array.join(", ")
   if array.length == 1
     return "#{array[0]}"
   elsif array.length == 2
