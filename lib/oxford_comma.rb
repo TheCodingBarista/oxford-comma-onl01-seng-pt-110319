@@ -12,5 +12,4 @@ when >= 3
   return array.join(", ")
 end
 
-
 end
